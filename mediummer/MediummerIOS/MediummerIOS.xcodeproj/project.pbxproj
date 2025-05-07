@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5449096D2DC9DD850033BBDF /* ComponentsKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5449096C2DC9DD850033BBDF /* ComponentsKit */; };
+		549BC4572DCB3EDE000B771C /* MarkdownUI in Frameworks */ = {isa = PBXBuildFile; productRef = 549BC4562DCB3EDE000B771C /* MarkdownUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5449096D2DC9DD850033BBDF /* ComponentsKit in Frameworks */,
+				549BC4572DCB3EDE000B771C /* MarkdownUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +73,7 @@
 			name = MediummerIOS;
 			packageProductDependencies = (
 				5449096C2DC9DD850033BBDF /* ComponentsKit */,
+				549BC4562DCB3EDE000B771C /* MarkdownUI */,
 			);
 			productName = MediummerIOS;
 			productReference = 544909592DC9DB920033BBDF /* MediummerIOS.app */;
@@ -102,6 +105,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				5449096B2DC9DD850033BBDF /* XCRemoteSwiftPackageReference "ComponentsKit" */,
+				549BC4552DCB3EDE000B771C /* XCRemoteSwiftPackageReference "MarkdownUI" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 5449095A2DC9DB920033BBDF /* Products */;
@@ -341,6 +345,14 @@
 				minimumVersion = 1.5.1;
 			};
 		};
+		549BC4552DCB3EDE000B771C /* XCRemoteSwiftPackageReference "MarkdownUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/gonzalezreal/MarkdownUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.4.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -348,6 +360,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 5449096B2DC9DD850033BBDF /* XCRemoteSwiftPackageReference "ComponentsKit" */;
 			productName = ComponentsKit;
+		};
+		549BC4562DCB3EDE000B771C /* MarkdownUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 549BC4552DCB3EDE000B771C /* XCRemoteSwiftPackageReference "MarkdownUI" */;
+			productName = MarkdownUI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

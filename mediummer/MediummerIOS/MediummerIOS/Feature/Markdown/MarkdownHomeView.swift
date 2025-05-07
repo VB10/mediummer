@@ -5,11 +5,21 @@
 //  Created by vb10 on 7.05.2025.
 //
 
+import MarkdownUI
 import SwiftUI
 
 struct MarkdownHomeView: View {
+    @Environment(\.openURL) var openURL
+    let markdownVM = MarkdownViewModel()
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView {
+            Markdown(markdownVM.content)
+                .markdownTheme(.fancy)
+                .padding()
+        }
+        .onOpenURL { url in
+            markdownVM.onUrlTapped(url: url.description)
+        }
     }
 }
 
