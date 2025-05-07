@@ -10,6 +10,7 @@ Each submodule focuses on a different technology (iOS, Flutter, Backend, etc.) a
 |---------------|-------------|--------------------|
 | Build iOS Apps Faster with Reusable SwiftUI and UIKit Components | *https://medium.com/@mikhailChelbaev/build-ios-apps-faster-with-reusable-swiftui-and-uikit-components-4b9682827e63* | `/mediummerIOS/Feature/ComponentKit` |
 | Rendering Markdown in iOS Swift | *https://gaitatzis.medium.com/rendering-markdown-in-ios-swift-3e9d8343e372* | `/mediummerIOS/Feature/Markdown` |
+| Simplifying Codable Implementation in Swift Using Property Wrappers | *https://paigeshin1991.medium.com/simplifying-codable-implementation-in-swift-using-property-wrappers-255af345f428* | `/mediummerIOS/Feature/PropertyWrapper` |
 
 > This list will expand as new articles are explored and implemented.
 
