@@ -41,14 +41,14 @@ class _PlutoGridHomeViewState extends State<PlutoGridHomeView>
             const SizedBox(height: PlutoGridConstants.defaultPadding),
             // Main grid
             Expanded(
-              child: PlutoGrid(
+              child: 
+              PlutoGrid(
                 columns: PlutoColumnHelper.getColumns(),
                 rows: PlutoColumnHelper.getProductRows(),
                 onChanged: onGridChanged,
                 onLoaded: onGridLoaded,
                 onSelected: onSelected,
                 mode: PlutoGridMode.multiSelect,
-
                 configuration: CustomPlutoConfiguration(context: context),
               ),
             ),
