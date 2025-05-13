@@ -7,9 +7,42 @@
 
 import SwiftUI
 
-struct KeyPathView: View {
+private struct User {
+    var name: String
+    var email: String
+}
+
+struct FormRow<T>: View {
+    @Binding var model: T
+    var keyPath: WritableKeyPath<T, String>
+    var title: String
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            Text(title)
+            TextField(title, text: Binding(
+                get: { model[keyPath: keyPath] },
+                set: { model[keyPath: keyPath] = $0 }
+            ))
+            .textFieldStyle(RoundedBorderTextFieldStyle())
+        }
+        .padding(.horizontal)
+    }
+}
+
+struct KeyPathView: View {
+    @State private var user = User(name: "", email: "")
+
+    var body: some View {
+        VStack(spacing: 16) {
+            FormRow(model: $user, keyPath: \.name, title: "Ad")
+            FormRow(model: $user, keyPath: \.email, title: "E-posta")
+
+            Button("Gönder") {
+                print("Ad: \(user.name), E-posta: \(user.email)")
+            }
+        }
+        .padding()
     }
 }
 
