@@ -14,6 +14,7 @@ Each submodule focuses on a different technology (iOS, Flutter, Backend, etc.) a
 | Introduction to PlutoGrid in Flutter | *https://codestax.medium.com/introduction-to-plutogrid-in-flutter-864e7b92fe44* | `/mediummerFlutter/lib/feature/plutoGrid` |
 | Why the Command Pattern Is More Useful Than You Think | *https://maxim-gorin.medium.com/why-the-command-pattern-is-more-useful-than-you-think-774eb7ddb685* | `/mediummerFlutter/lib/feature/command_pattern` |
 | The Power of KeyPath in SwiftUI | *https://levelup.gitconnected.com/the-power-of-keypath-in-swiftui-aff57dc5afdd* | `/mediummerIOS/Feature/KeyPath` |
+| The evolution of native engineering at Tripadvisor: Part 1 | *https://medium.com/tripadvisor/the-evolution-of-native-engineering-at-tripadvisor-part-1-577cc0e36ec8* | `/mediummerIOS/Feature/ArchitectureEvolution` |
 
 > This list will expand as new articles are explored and implemented.
 
