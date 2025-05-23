@@ -6,12 +6,19 @@
 //
 
 import SwiftUI
+import ComposableArchitecture
 
 @main
 struct MediummerIOSApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TCAHomeView(
+                store: Store(
+                    initialState: TCAHomeFeature.State()
+                ) {
+                    TCAHomeFeature()
+                }
+            )
         }
     }
 }
