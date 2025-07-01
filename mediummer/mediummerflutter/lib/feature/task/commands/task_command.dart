@@ -13,7 +13,7 @@ abstract class TaskCommand {
 /// Base class for task commands with common functionality
 abstract class BaseTaskCommand implements TaskCommand {
   BaseTaskCommand({required this.taskId, DateTime? timestamp})
-    : timestamp = timestamp ?? DateTime.now();
+      : timestamp = timestamp ?? DateTime.now();
   final String taskId;
   final DateTime timestamp;
 
@@ -21,3 +21,14 @@ abstract class BaseTaskCommand implements TaskCommand {
   String get commandDescription =>
       '$runtimeType for task $taskId at $timestamp';
 }
+
+
+/// 
+/// 03:00
+/// 05:20
+/// 09:00 markownui
+/// 12:00 property warpper
+/// 17:00 pluto grid
+/// 27:00 command pattern
+/// 31:20 keypath
+/// the end tCA
