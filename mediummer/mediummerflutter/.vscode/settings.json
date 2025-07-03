@@ -16,5 +16,8 @@
       "source.fixAll": "explicit",
       "source.organizeImports": "explicit"
     }
-  }
+  },
+  "cSpell.words": [
+    "mediummerflutter"
+  ]
 }
