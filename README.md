@@ -8,6 +8,9 @@ Each submodule focuses on a different technology (iOS, Flutter, Backend, etc.) a
 
 | Article Title | Medium Link | Code Example Path |
 |---------------|-------------|--------------------|
+| Practical Accessibility in Flutter (and Code You'll Actually Use) | *https://medium.com/dcm-analyzer/practical-accessibility-in-flutter-and-code-youll-actually-use-2d3a14ea2785* | — |
+| Mastering Inter-Process Communication (IPC) in Android | *https://proandroiddev.com/mastering-inter-process-communication-ipc-in-android-fe471c7796e4* | — |
+| Memory Management Best Practices in Flutter | *https://medium.com/@ravipatel84184/memory-management-best-practices-in-flutter-124112ded38a* | `/mediummerflutter/lib/feature/memory_management` |
 | Swift Protocols Every Developer Should Know: Equatable, Hashable, Identifiable, Comparable | *https://medium.com/@serhankhan/swift-protocols-every-developer-should-know-equatable-hashable-identifiable-comparable-59c23215c534* | `/mediummerIOS/Feature/Protocols` |
 | 14 Logic-Driven UI Design Tips to Improve Any Interface | *https://uxplanet.org/14-logic-driven-ui-design-tips-145ee08ea5a5* | `/mediummerUX/Feature/LogicDrivenUIDesign` |
 | Mobile System Design: Instagram Stories | *https://rahul9650ray.medium.com/mobile-system-design-instagram-stories-786e910d17a6* | `/mediummerMobile/Feature/InstagramStories` |
