@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mediummerflutter/feature/task/views/task_list_screen.dart';
+import 'package:mediummerflutter/feature/memory_management/memory_management.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
         useMaterial3: true,
       ),
-      home: const TaskListProvider(),
+      home: const MemoryManagementExamples(),
       // home: const PlutoGridHomeView(),
     );
   }
