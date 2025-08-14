@@ -1,23 +1,22 @@
 import 'package:flutter/material.dart';
-import 'package:mediummerflutter/feature/memory_management/memory_management.dart';
+import 'package:mediummerflutter/feature/messaging/views/messaging_home_page.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const MessagingApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class MessagingApp extends StatelessWidget {
+  const MessagingApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Task Manager',
+      title: 'Mediator Messaging App',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
         useMaterial3: true,
       ),
-      home: const MemoryManagementExamples(),
-      // home: const PlutoGridHomeView(),
+      home: const MessagingHomePage(),
     );
   }
 }
